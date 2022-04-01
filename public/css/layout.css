@@ -1,0 +1,48 @@
+/* 헤더 */
+header {width: 100%; height: 60px;}
+#header {width: 100%; height: 60px; background-color: #fff; position: fixed; top: 0; z-index: 996; border-bottom: 1px solid rgba(0, 0, 0, 0.1);;}
+.h_container {position: relative; height: 60px; max-width: 1080px;}
+.h_left {position: absolute; left: 20px; top: 50%; transform: translate(0%, -50%); -webkit-transform: translate(0%, -50%); -o-transform: translate(0%, -50%); -ms-transform: translate(0%, -50%); -moz-transform: translate(0%, -50%)}
+.h_left h1 img {width: 75px;}
+
+.h_middle ul {text-align: center; padding-top: 18px;}
+.h_middle ul li {display: inline-block; vertical-align: middle; width: 100px;}
+.h_middle ul li a {color:#1b1c1f; font-size: 13px;}
+.h_middle ul li a:hover {transition: 0.3s; font-weight: bold; }
+
+.h_right {position: absolute; right: 20px; top: 50%; transform: translate(0%, -50%); -webkit-transform: translate(0%, -50%); -o-transform: translate(0%, -50%); -ms-transform: translate(0%, -50%); -moz-transform: translate(0%, -50%)}
+.h_right a {display: inline-block; font-weight: bold; color:#1b1c1f; font-size: 13px;}
+.h_right span {display: inline-block; font-weight: bold; color:#1b1c1f; font-size: 11px;}
+.h_right .login_btn {padding-right: 5px;}
+.h_right .join_btn {padding-left: 5px;}
+
+.my_profile {display: none; position: absolute; right: 30px; top: 50%; transform: translate(0%, -50%); -webkit-transform: translate(0%, -50%); -o-transform: translate(0%, -50%); -ms-transform: translate(0%, -50%); -moz-transform: translate(0%, -50%);}
+.my_profile .profile_box {}
+.my_profile .profile_box a {display: block;}
+.my_profile .profile_box a img {width: 15px; height: 15px;}
+
+.m_header {background-color: #fff; position: fixed; width: 100%;}
+.m_header ul {display: none; text-align: center; padding-left:20px; }
+.m_header ul::after {clear: both; content: ''; display: block; visibility: hidden; height: 0;}
+.m_header ul li {float: left; padding-right: 5%;}
+.m_header ul li a {color:#1b1c1f; font-size: 13px; font-weight: bold;}
+.m_header ul li a:hover {transition: 0.3s; font-weight: bold;}
+
+/* 푸터 */
+#footer {background-color: #eef3fd;}
+.f_cont {padding: 50px 0; position: relative;}
+.f_cont .f_top h2 {font-size: 16px; font-weight: bold; margin-top: 30px;}
+.f_cont .f_top p {padding-top: 10px; color: #999; font-size: 13px;}
+.f_cont .f_top .p1 {padding-top: 30px;}
+.f_middle {padding-top: 30px; display: none;}
+.f_middle ul::after {content: ''; clear: both; height: 0; display: block; visibility: hidden;}
+.f_middle ul li {float: left; margin-right: 30px;}
+.f_middle ul li a {float: left; font-weight: bold ; font-size: 14px; color: #999; font-size: 13px;}
+
+
+.f_logo{position: absolute; top: 55%; right: 0; transform: translate(0 , -55%);}
+.f_logo img {width: 100px;}
+
+
+
+
